@@ -34,12 +34,34 @@ Use the following examples for build or deployment environment variables:
 
 ## Installation & Local Run
 
-1. npm install?
-2. npm run prod?
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Test
 
-1. npm test
+```bash
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
 
 
 ## Usage
@@ -61,7 +83,7 @@ GET http://localhost:8080/hello
 
 - Create dev / prod example
 - Write clear instructions on how to add it to kintohub
-- (optional) write further instruction on how to fine tune it for production 
+- (optional) write further instruction on how to fine tune it for production
 - Create tags for the example repository (kintohub, examples, related technologies)
 - Create new example on [kinto-docs](docs.kintohub.com) (add to sidebar + create new page)
 - Double check call URLs and ensure they are appropriate to your username
